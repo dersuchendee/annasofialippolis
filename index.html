@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - WIP</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home | Anna Sofia Lippolis</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Anna Sofia Lippolis">
+<meta name="description" content="Anna Sofia Lippolis' personal website.">
+<meta property="og:title" content="Anna Sofia Lippolis">
+<meta property="og:description" content="Anna Sofia Lippolis' personal website.">
+<meta property="og:image" content="https://www.blah.com/img/meta-img.jpg">
+<meta property="og:url" content="https://www.blah.com">
+<meta property="og:site_name" content="Anna Sofia Lippolis">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image:alt" content="Screenshot of Anna Sofia Lippolis' website">
+<link href="/css/styles.css" rel="stylesheet">
+<link rel="icon" type="image/svg+xml" href="/img/unicorn-circle.svg">
+</head>
+<body>
+
+<header id="top">
+<button class="theme-toggle" aria-label="Choose theme" id="themeToggle">
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" fill="#000000" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><path d="M128,104V36a20,20,0,0,0-40,0V157.26608L66.07247,119.28651a20,20,0,1,0-34.641,20C64,208,83.81722,232,128,232a80,80,0,0,0,80-80V112a20,20,0,0,0-40,0" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></path><path d="M168,112V100a20,20,0,0,0-40,0v4" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></path></svg>
+</button>
+
+<div class="theme-options" id="themeOptions">
+<div class="theme-options-inner">
+<button class="theme-picker" aria-label="Light theme" id="light-theme">
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" fill="currentColor" viewBox="0 0 256 256">
+<rect width="256" height="256" fill="none"></rect>
+<circle cx="128" cy="128" r="60" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></circle>
+<line x1="128" y1="36" x2="128" y2="16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line>
+<line x1="62.94618" y1="62.94618" x2="48.80404" y2="48.80404" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line>
+<line x1="36" y1="128" x2="16" y2="128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line>
+<line x1="62.94618" y1="193.05382" x2="48.80404" y2="207.19596" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line>
+<line x1="128" y1="220" x2="128" y2="240" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line>
+<line x1="193.05382" y1="193.05382" x2="207.19596" y2="207.19596" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line>
+<line x1="220" y1="128" x2="240" y2="128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line>
+                    <line x1="193.05382" y1="62.94618" x2="207.19596" y2="48.80404" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line>
+                </svg>
+            </button>
+            <button class="theme-picker" aria-label="Dark theme" id="dark-theme">
+                <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" fill="currentColor" viewBox="0 0 256 256">
+                    <rect width="256" height="256" fill="none"></rect>
+                    <line x1="216" y1="112" x2="216" y2="64" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line>
+                    <line x1="240" y1="88" x2="192" y2="88" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line>
+                    <line x1="168" y1="24" x2="168" y2="56" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line>
+                    <line x1="184" y1="40" x2="152" y2="40" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line>
+                    <path d="M221.567,149.56784A96.0849,96.0849,0,0,1,106.43219,34.43294l-.00127-.00029A96.01213,96.01213,0,1,0,221.56729,149.56932Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></path>
+                </svg>
+            </button>
+            <button class="theme-picker" aria-label="Retro theme" id="vaporwave-theme">
+                <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" fill="#000000" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><circle cx="100" cy="116" r="12"></circle><circle cx="156" cy="116" r="12"></circle><path d="M216,216l-29.33333-24-29.33334,24L128,192,98.66667,216,69.33333,192,40,216V120a88,88,0,0,1,176,0Z" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></path></svg>
+            </button>
+        </div>
+    </div>
+</header>
+
+
+
+<section class="hero">
+<div class="sidebar">
+<h1 class="sidebar-title">
+<span>
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" fill="currentColor" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><g><path d="M119.99332,106.41921l-26-45.03332a20,20,0,0,1,34.641-20l40,69.282" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></path><path d="M89.35231,133.34742l-38-65.81793a20,20,0,1,1,34.641-20l34,58.88972" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></path><path d="M153.99332,165.30894a40,40,0,0,1,14.641-54.641l-10-17.32051a20,20,0,1,1,34.641-20l20,34.641a80,80,0,1,1-138.56406,80l-38-65.81793a20,20,0,0,1,34.641-20l18,31.17692" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></path></g><path d="M81.09415,240.0027A111.54975,111.54975,0,0,1,48,203.99065" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></path><path d="M176,31A51.97065,51.97065,0,0,1,221.0258,57.00434" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></path></svg>
+Welcome
+</span>
+</h1>
+</div>
+
+<div class="hero-body">
+<div class="hero-bio container container--narrow">
+<h1>I'm Anna Sofia Lippolis, <br />a Digital Humanist based in Bologna, Italy.</h1>
+<p>I work on the dissemination and enhancement of cultural heritage through an interdisciplinary approach</p>
+<p>Sometimes I <a href="#projects">create projects</a>. Other times I just <a href="https://github.com/dersuchendee/">code</a> stuff. Occasionally, I <a href="#writing">write</a>.<div class="section-actions">
+   <a href="CV_Lippolis.pdf" download>Download my CV</a>
+</div> </p>
+
+        </div>
+
+    </div>
+
+</section>
+    <main class="main">
+            <section class="section"id="projects">
+    <div class="sidebar">
+        <h1 class="sidebar-title">
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" fill="currentColor" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><rect x="32.00781" y="80.00005" width="160" height="128" rx="8" stroke-width="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none"></rect><path d="M64.00781,80.00005v-24a8,8,0,0,1,8-8h144a8,8,0,0,1,8,8V168a8,8,0,0,1-8,8h-24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></path><line x1="32" y1="112" x2="192" y2="112" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line></svg>
+                Work
+            </span>
+        </h1>
+    </div>
+    <div class="section-body">
+        <div class="container section-rows">
+            <div class="section-intro">
+                <p>I'm currently working as a project assistant at <a href="https://www.vulcinelmondo.com/">Vulci nel Mondo</a>, but here are some of the projects I've been working on in the last year.</p>
+
+            </div>
+            <div class="section-content">
+                <div class="project-list">
+
+        <article class="project-list-item">
+            <h2 class="project-list-item-title">
+                <a href="https://dersuchendee.github.io/variantsmining/">
+                    Variants Mining
+                </a>
+            </h2>
+            <div class="project-list-item-description">
+                A quantitative analysis of authorial corrections. The case of Alessandro Manzoni's <i>I promessi sposi</i>.
+            </div>
+            <a href="https://dersuchendee.github.io/variantsmining/" class="project-list-item-permalink" aria-label="About 'Noel.fun'">
+                <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" fill="currentColor" viewBox="0 0 256 256">
+                    <rect width="256" height="256" fill="none"></rect>
+                    <path d="M48,223.99414H208a16.01582,16.01582,0,0,0,16-16v-160a16.01583,16.01583,0,0,0-16-16H48a16.01583,16.01583,0,0,0-16,16v160A16.01582,16.01582,0,0,0,48,223.99414Zm80.40625-56.39062a7.99708,7.99708,0,0,1,0-11.3125l20.28613-20.29688H88a8,8,0,0,1,0-16h60.6875L128.40625,99.71289a7.99915,7.99915,0,0,1,11.3125-11.3125l33.92773,33.92773a8.02367,8.02367,0,0,1,0,11.332l-33.92773,33.94336A7.99708,7.99708,0,0,1,128.40625,167.60352Z"></path>
+                </svg>
+                <span>About the project</span>
+            </a>
+        </article>
+
+        <article class="project-list-item">
+            <h2 class="project-list-item-title">
+                <a href="https://digital-whomanities.github.io/dwho.github.io/">
+                    Digital WHOmanities
+                </a>
+            </h2>
+            <div class="project-list-item-description">
+A cycle of seminars and workshops on the present and the future of the Digital Humanities organized by a group of DH students (FICLIT project of excellence 2020).
+            </div>
+            <a href="https://digital-whomanities.github.io/dwho.github.io/" class="project-list-item-permalink" aria-label="About 'StageOS'">
+                <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" fill="currentColor" viewBox="0 0 256 256">
+                    <rect width="256" height="256" fill="none"></rect>
+                    <path d="M48,223.99414H208a16.01582,16.01582,0,0,0,16-16v-160a16.01583,16.01583,0,0,0-16-16H48a16.01583,16.01583,0,0,0-16,16v160A16.01582,16.01582,0,0,0,48,223.99414Zm80.40625-56.39062a7.99708,7.99708,0,0,1,0-11.3125l20.28613-20.29688H88a8,8,0,0,1,0-16h60.6875L128.40625,99.71289a7.99915,7.99915,0,0,1,11.3125-11.3125l33.92773,33.92773a8.02367,8.02367,0,0,1,0,11.332l-33.92773,33.94336A7.99708,7.99708,0,0,1,128.40625,167.60352Z"></path>
+                </svg>
+                <span>About the project</span>
+            </a>
+        </article>
+
+        <article class="project-list-item">
+            <h2 class="project-list-item-title">
+                <a href="https://opensisma.github.io/">
+                    OpenSisma
+                </a>
+            </h2>
+            <div class="project-list-item-description">
+                An Open Data research project about the effects of the 2012 Earthquakes in Emilia-Romagna. The websites displays and maps relevant information on the buildings affected by the Earthquakes and investigates the correlation between damage index and school scores.
+            </div>
+            <a href="https://opensisma.github.io/" class="project-list-item-permalink" aria-label="About 'Unicorn — personal branding'">
+                <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" fill="currentColor" viewBox="0 0 256 256">
+                    <rect width="256" height="256" fill="none"></rect>
+                    <path d="M48,223.99414H208a16.01582,16.01582,0,0,0,16-16v-160a16.01583,16.01583,0,0,0-16-16H48a16.01583,16.01583,0,0,0-16,16v160A16.01582,16.01582,0,0,0,48,223.99414Zm80.40625-56.39062a7.99708,7.99708,0,0,1,0-11.3125l20.28613-20.29688H88a8,8,0,0,1,0-16h60.6875L128.40625,99.71289a7.99915,7.99915,0,0,1,11.3125-11.3125l33.92773,33.92773a8.02367,8.02367,0,0,1,0,11.332l-33.92773,33.94336A7.99708,7.99708,0,0,1,128.40625,167.60352Z"></path>
+                </svg>
+                <span>About the project</span>
+            </a>
+        </article>
+
+</div>
+                 <div class="section-actions">
+                    <a href="CV_Lippolis.pdf">Browse other projects through my CV</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+            <section class="section"id="writing">
+    <div class="sidebar">
+        <h1 class="sidebar-title">
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" fill="currentColor" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><path d="M96,216H48a8,8,0,0,1-8-8V163.31371a8,8,0,0,1,2.34315-5.65686l120-120a8,8,0,0,1,11.3137,0l44.6863,44.6863a8,8,0,0,1,0,11.3137Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></path><line x1="136" y1="64" x2="192" y2="120" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line><polyline points="216 216 96 216 40.509 160.509" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></polyline></svg>
+                Publications
+            </span>
+        </h1>
+    </div>
+    <div class="section-body">
+        <div class="container section-columns">
+            <div class="section-intro">
+                <p>My academic publications.</p>
+
+            </div>
+            <div class="section-content">
+                <div class="article-list">
+
+        <article class="article-list-item">
+            <h2 class="article-list-item-title">
+                <a href="">
+                    Anna Sofia Lippolis,"Recensione a 'Manzoni', a cura di Paola Italia". In: La questione Romantica no. 13 (2021).
+                </a>
+            </h2>
+            <div class="article-list-item-excerpt">
+                A review on the recent 'Manzoni' volume.
+            </div>
+            <a href="" class="article-list-item-permalink" aria-label="Read 'How to Create a Shrinking Header on Scroll Without JavaScript'">
+                <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" fill="currentColor" viewBox="0 0 256 256">
+                    <rect width="256" height="256" fill="none"></rect>
+                    <path d="M48,223.99414H208a16.01582,16.01582,0,0,0,16-16v-160a16.01583,16.01583,0,0,0-16-16H48a16.01583,16.01583,0,0,0-16,16v160A16.01582,16.01582,0,0,0,48,223.99414Zm80.40625-56.39062a7.99708,7.99708,0,0,1,0-11.3125l20.28613-20.29688H88a8,8,0,0,1,0-16h60.6875L128.40625,99.71289a7.99915,7.99915,0,0,1,11.3125-11.3125l33.92773,33.92773a8.02367,8.02367,0,0,1,0,11.332l-33.92773,33.94336A7.99708,7.99708,0,0,1,128.40625,167.60352Z"></path>
+                </svg>
+                <span>Read more</span>
+            </a>
+        </article>
+
+        <article class="article-list-item">
+            <h2 class="article-list-item-title">
+                <a href="https://aiucd2021.labcd.unipi.it/wp-content/uploads/2021/01/a041.pd
+f.">
+                  De Blasi, Margherita, Anna Sofia Lippolis and Gabriella Totaro.
+"Political Variants Mining: computational investigations on authorial variants", In :AIUCD 2021 Book of Abstracts (2021)
+                </a>
+            </h2>
+            <div class="article-list-item-excerpt">
+              A collaboration between digital humanists and a philologist to understand whether the meaning of corrections in controversial works of modernity can be automatically extracted and visualized. Presented at the AIUCD 2021 conference poster session.
+            </div>
+            <a href="https://aiucd2021.labcd.unipi.it/wp-content/uploads/2021/01/a041.pdf" class="article-list-item-permalink" aria-label="Read 'How to Create a Shrinking Header on Scroll Without JavaScript'">
+                <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" fill="currentColor" viewBox="0 0 256 256">
+                    <rect width="256" height="256" fill="none"></rect>
+                    <path d="M48,223.99414H208a16.01582,16.01582,0,0,0,16-16v-160a16.01583,16.01583,0,0,0-16-16H48a16.01583,16.01583,0,0,0-16,16v160A16.01582,16.01582,0,0,0,48,223.99414Zm80.40625-56.39062a7.99708,7.99708,0,0,1,0-11.3125l20.28613-20.29688H88a8,8,0,0,1,0-16h60.6875L128.40625,99.71289a7.99915,7.99915,0,0,1,11.3125-11.3125l33.92773,33.92773a8.02367,8.02367,0,0,1,0,11.332l-33.92773,33.94336A7.99708,7.99708,0,0,1,128.40625,167.60352Z"></path>
+                </svg>
+                <span>Read more</span>
+            </a>
+        </article>
+
+        <article class="article-list-item">
+            <h2 class="article-list-item-title">
+                <a href="https://umanisticadigitale.unibo.it/"> Anna Sofia Lippolis et. al. "The Digital WHOmanities project: Best Practices for Digital Pedagogy in the Pandemic Era". In: Umanistica Digitale no. 10(2021), forthcoming.
+                </a>
+            </h2>
+            <div class="article-list-item-excerpt">
+              Summary and reflections on the Digital WHOmanities project.
+            </div>
+            <a href="https://umanisticadigitale.unibo.it/" class="article-list-item-permalink" aria-label="Read 'How to Create a Shrinking Header on Scroll Without JavaScript'">
+                <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" fill="currentColor" viewBox="0 0 256 256">
+                    <rect width="256" height="256" fill="none"></rect>
+                    <path d="M48,223.99414H208a16.01582,16.01582,0,0,0,16-16v-160a16.01583,16.01583,0,0,0-16-16H48a16.01583,16.01583,0,0,0-16,16v160A16.01582,16.01582,0,0,0,48,223.99414Zm80.40625-56.39062a7.99708,7.99708,0,0,1,0-11.3125l20.28613-20.29688H88a8,8,0,0,1,0-16h60.6875L128.40625,99.71289a7.99915,7.99915,0,0,1,11.3125-11.3125l33.92773,33.92773a8.02367,8.02367,0,0,1,0,11.332l-33.92773,33.94336A7.99708,7.99708,0,0,1,128.40625,167.60352Z"></path>
+                </svg>
+                <span>Read more</span>
+            </a>
+        </article>
+
+        <article class="article-list-item">
+            <h2 class="article-list-item-title">
+                <a href="http://ride.i-d-e.de/"> Anna Sofia Lippolis, "Review of Galileo Galilei’s notes on motion", In: RIDE:A review journal for digital editions and resources, no.14 (2021), forthcoming.
+                </a>
+            </h2>
+            <div class="article-list-item-excerpt">
+              Review and reflections on the 1998 digital edition "Review of Galileo Galilei's notes on motion"
+            </div>
+            <a href="http://ride.i-d-e.de/" class="article-list-item-permalink" aria-label="Read 'How to Create a Shrinking Header on Scroll Without JavaScript'">
+                <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" fill="currentColor" viewBox="0 0 256 256">
+                    <rect width="256" height="256" fill="none"></rect>
+                    <path d="M48,223.99414H208a16.01582,16.01582,0,0,0,16-16v-160a16.01583,16.01583,0,0,0-16-16H48a16.01583,16.01583,0,0,0-16,16v160A16.01582,16.01582,0,0,0,48,223.99414Zm80.40625-56.39062a7.99708,7.99708,0,0,1,0-11.3125l20.28613-20.29688H88a8,8,0,0,1,0-16h60.6875L128.40625,99.71289a7.99915,7.99915,0,0,1,11.3125-11.3125l33.92773,33.92773a8.02367,8.02367,0,0,1,0,11.332l-33.92773,33.94336A7.99708,7.99708,0,0,1,128.40625,167.60352Z"></path>
+                </svg>
+                <span>Read more</span>
+            </a>
+        </article>
+<!---
+        <article class="article-list-item">
+            <h2 class="article-list-item-title">
+                <a href="/posts/how-to-design-a-dribbble-worthy-landing-page-in-10-simple-steps/">
+                    How to design a Dribbble-worthy landing page in 10 simple steps
+                </a>
+            </h2>
+            <div class="article-list-item-excerpt">
+                Improve your portfolio with fictional product pages.
+            </div>
+            <a href="/posts/how-to-design-a-dribbble-worthy-landing-page-in-10-simple-steps/" class="article-list-item-permalink" aria-label="Read 'How to design a Dribbble-worthy landing page in 10 simple steps '">
+                <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" fill="currentColor" viewBox="0 0 256 256">
+                    <rect width="256" height="256" fill="none"></rect>
+                    <path d="M48,223.99414H208a16.01582,16.01582,0,0,0,16-16v-160a16.01583,16.01583,0,0,0-16-16H48a16.01583,16.01583,0,0,0-16,16v160A16.01582,16.01582,0,0,0,48,223.99414Zm80.40625-56.39062a7.99708,7.99708,0,0,1,0-11.3125l20.28613-20.29688H88a8,8,0,0,1,0-16h60.6875L128.40625,99.71289a7.99915,7.99915,0,0,1,11.3125-11.3125l33.92773,33.92773a8.02367,8.02367,0,0,1,0,11.332l-33.92773,33.94336A7.99708,7.99708,0,0,1,128.40625,167.60352Z"></path>
+                </svg>
+                <span>Read more</span>
+            </a>
+        </article>
+
+        <article class="article-list-item">
+            <h2 class="article-list-item-title">
+                <a href="/posts/users-will-break-your-design-and-its-not-their-fault/">
+                    Users will break your design and it&#39;s not their fault
+                </a>
+            </h2>
+            <div class="article-list-item-excerpt">
+                Enter the uncomfortable zone of designing for variable &quot;x&quot;.
+            </div>
+            <a href="/posts/users-will-break-your-design-and-its-not-their-fault/" class="article-list-item-permalink" aria-label="Read 'Users will break your design and it&#39;s not their fault'">
+                <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" fill="currentColor" viewBox="0 0 256 256">
+                    <rect width="256" height="256" fill="none"></rect>
+                    <path d="M48,223.99414H208a16.01582,16.01582,0,0,0,16-16v-160a16.01583,16.01583,0,0,0-16-16H48a16.01583,16.01583,0,0,0-16,16v160A16.01582,16.01582,0,0,0,48,223.99414Zm80.40625-56.39062a7.99708,7.99708,0,0,1,0-11.3125l20.28613-20.29688H88a8,8,0,0,1,0-16h60.6875L128.40625,99.71289a7.99915,7.99915,0,0,1,11.3125-11.3125l33.92773,33.92773a8.02367,8.02367,0,0,1,0,11.332l-33.92773,33.94336A7.99708,7.99708,0,0,1,128.40625,167.60352Z"></path>
+                </svg>
+                <span>Read more</span>
+            </a>
+        </article>
+
+</div>
+                <div class="section-actions">
+                    <a href="/posts/">More posts</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+            <section class="section"id="pens">
+    <div class="sidebar">
+        <h1 class="sidebar-title">
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" fill="currentColor" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><rect x="24" y="56" width="208" height="144" rx="8.48528" stroke-width="16.97056" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none"></rect><line x1="56" y1="128" x2="200" y2="128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line><line x1="56" y1="96" x2="200" y2="96" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line><line x1="56" y1="160" x2="64" y2="160" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line><line x1="96" y1="160" x2="160" y2="160" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line><line x1="192" y1="160" x2="200" y2="160" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line></svg>
+                Publications
+            </span>
+        </h1>
+    </div>
+    <div class="section-body">
+        <div class="container section-columns">
+            <div class="section-intro">
+                <p>I'm an avid user of <a href="https://codepen.io/havardob">CodePen</a> and huge fan of their community. It's become somewhat a daily hobby of mine to use this platform to recreate Dribbble shots or explore the many possiblities CSS has to offer.</p>
+<p>A few of my pens has also been featured in the <a href="https://codepen.io/spark">CodePen Spark</a> newsletter and in the <a href="https://codepen.io/2020/popular/pens/4">The Most Hearted Pens of 2020</a>.</p>
+<p>Here are some of my personal favorites.</p>
+
+            </div>
+            <div class="section-content">
+                <div class="article-list">
+
+        <article class="article-list-item">
+            <h2 class="article-list-item-title">
+                <a href="/pens/3d-switch/">
+                    3D Switch
+                </a>
+            </h2>
+            <div class="article-list-item-excerpt">
+                Skeuomorphism is dead - or at least in hibernation. When it eventually comes back I&#39;ll be ready to create 3D components like this one using only CSS.
+            </div>
+            <a href="/pens/3d-switch/" class="article-list-item-permalink" aria-label="Read '3D Switch'">
+                <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" fill="currentColor" viewBox="0 0 256 256">
+                    <rect width="256" height="256" fill="none"></rect>
+                    <path d="M48,223.99414H208a16.01582,16.01582,0,0,0,16-16v-160a16.01583,16.01583,0,0,0-16-16H48a16.01583,16.01583,0,0,0-16,16v160A16.01582,16.01582,0,0,0,48,223.99414Zm80.40625-56.39062a7.99708,7.99708,0,0,1,0-11.3125l20.28613-20.29688H88a8,8,0,0,1,0-16h60.6875L128.40625,99.71289a7.99915,7.99915,0,0,1,11.3125-11.3125l33.92773,33.92773a8.02367,8.02367,0,0,1,0,11.332l-33.92773,33.94336A7.99708,7.99708,0,0,1,128.40625,167.60352Z"></path>
+                </svg>
+                <span>Check it out</span>
+            </a>
+        </article>
+
+        <article class="article-list-item">
+            <h2 class="article-list-item-title">
+                <a href="/pens/context-menu/">
+                    Context menu
+                </a>
+            </h2>
+            <div class="article-list-item-excerpt">
+                Another Dribbble recreation showing of the beautiful icon pack &#39;Feather&#39;, featured in the 184th editon of the CodePen Spark.
+            </div>
+            <a href="/pens/context-menu/" class="article-list-item-permalink" aria-label="Read 'Context menu'">
+                <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" fill="currentColor" viewBox="0 0 256 256">
+                    <rect width="256" height="256" fill="none"></rect>
+                    <path d="M48,223.99414H208a16.01582,16.01582,0,0,0,16-16v-160a16.01583,16.01583,0,0,0-16-16H48a16.01583,16.01583,0,0,0-16,16v160A16.01582,16.01582,0,0,0,48,223.99414Zm80.40625-56.39062a7.99708,7.99708,0,0,1,0-11.3125l20.28613-20.29688H88a8,8,0,0,1,0-16h60.6875L128.40625,99.71289a7.99915,7.99915,0,0,1,11.3125-11.3125l33.92773,33.92773a8.02367,8.02367,0,0,1,0,11.332l-33.92773,33.94336A7.99708,7.99708,0,0,1,128.40625,167.60352Z"></path>
+                </svg>
+                <span>Check it out</span>
+            </a>
+        </article>
+
+        <article class="article-list-item">
+            <h2 class="article-list-item-title">
+                <a href="/pens/skeleton-loading-using-only-a-few-lines-of-css/">
+                    Skeleton loading using only a few lines of CSS
+                </a>
+            </h2>
+            <div class="article-list-item-excerpt">
+                Skeleton or ghost loading is present in most applications today and here&#39;s an example of how you can create one with some CSS.
+            </div>
+            <a href="/pens/skeleton-loading-using-only-a-few-lines-of-css/" class="article-list-item-permalink" aria-label="Read 'Skeleton loading using only a few lines of CSS'">
+                <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" fill="currentColor" viewBox="0 0 256 256">
+                    <rect width="256" height="256" fill="none"></rect>
+                    <path d="M48,223.99414H208a16.01582,16.01582,0,0,0,16-16v-160a16.01583,16.01583,0,0,0-16-16H48a16.01583,16.01583,0,0,0-16,16v160A16.01582,16.01582,0,0,0,48,223.99414Zm80.40625-56.39062a7.99708,7.99708,0,0,1,0-11.3125l20.28613-20.29688H88a8,8,0,0,1,0-16h60.6875L128.40625,99.71289a7.99915,7.99915,0,0,1,11.3125-11.3125l33.92773,33.92773a8.02367,8.02367,0,0,1,0,11.332l-33.92773,33.94336A7.99708,7.99708,0,0,1,128.40625,167.60352Z"></path>
+                </svg>
+                <span>Check it out</span>
+            </a>
+        </article>
+
+        <article class="article-list-item">
+            <h2 class="article-list-item-title">
+                <a href="/pens/sliding-tabs-using-only-css-transitions/">
+                    Sliding Tabs Using Only CSS Transitions
+                </a>
+            </h2>
+            <div class="article-list-item-excerpt">
+                This Dribbble shot recreation landed the 62nd place in the Most Hearted Pens of 2020 and demonstrates how to create a tab component with a sliding focus effect on click.
+            </div>
+            <a href="/pens/sliding-tabs-using-only-css-transitions/" class="article-list-item-permalink" aria-label="Read 'Sliding Tabs Using Only CSS Transitions'">
+                <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" fill="currentColor" viewBox="0 0 256 256">
+                    <rect width="256" height="256" fill="none"></rect>
+                    <path d="M48,223.99414H208a16.01582,16.01582,0,0,0,16-16v-160a16.01583,16.01583,0,0,0-16-16H48a16.01583,16.01583,0,0,0-16,16v160A16.01582,16.01582,0,0,0,48,223.99414Zm80.40625-56.39062a7.99708,7.99708,0,0,1,0-11.3125l20.28613-20.29688H88a8,8,0,0,1,0-16h60.6875L128.40625,99.71289a7.99915,7.99915,0,0,1,11.3125-11.3125l33.92773,33.92773a8.02367,8.02367,0,0,1,0,11.332l-33.92773,33.94336A7.99708,7.99708,0,0,1,128.40625,167.60352Z"></path>
+                </svg>
+                <span>Check it out</span>
+            </a>
+        </article>
+
+</div>
+                <div class="section-actions">
+                    <a href="https://codepen.io/havardob">More pens</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+        <div class="to-top-button-wrapper">
+    <a href="#top" class="to-top-button">
+        <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" fill="currentColor" viewBox="0 0 256 256">
+            <rect width="256" height="256" fill="none"></rect>
+            <polyline points="136 80 88 32 40 80" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></polyline>
+            <path d="M200,80v88a56,56,0,0,1-56,56h-.00011A55.99988,55.99988,0,0,1,88,168.00011V32" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></path>
+        </svg>
+    </a>-->
+</div>
+</main>
+<footer class="footer">
+    <div class="footer-body">
+        <div class="container">
+            <div class="footer-content">
+                <p>Handcrafted with LOVE. Built with <a href="https://www.11ty.dev/">Eleventy</a>. Deployed with <a href="https://www.netlify.com/">Netlify</a> and edited with <a href="https://www.netlifycms.org/">Netlify CMS</a>. Icons by <a href="https://phosphoricons.com/">Phosphor Icons</a>. <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"></a><br />This work is distributed with License <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</a>.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="/js/script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
